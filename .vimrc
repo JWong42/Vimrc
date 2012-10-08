@@ -1,7 +1,7 @@
 " Version: 1.0 - Oct 4th, 2012
 
 " Set colorscheme 
-colorscheme darkblue
+colorscheme evening
 
 " Enable syntax highlighting
 syntax on
@@ -21,21 +21,21 @@ set incsearch
 " Highlight search results 
 set hls 
 
+" Disable highlight when <leader><cr> (:enter) is pressed
+map <silent> <leader><cr> :noh<cr>
+
 " Show position 
 set ruler
 
 " Automatically indent when adding a curly bracket, etc. 
 set smartindent 
 
-" Use spaces instead of tabs
-set expandtab
-
 " Use smart tab
 set smarttab
 
 " 1 tab == 2 spaces
-set shiftwidth=2
-set tabstop=2
+set shiftwidth=4
+set tabstop=4
 
 " Show line number
 set number 
