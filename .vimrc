@@ -21,7 +21,7 @@ set incsearch
 " Highlight search results 
 set hls 
 
-" Disable highlight when <leader><cr> (:enter) is pressed
+" Disable highlight when <leader><cr> (\enter) is pressed
 map <silent> <leader><cr> :noh<cr>
 
 " Show position 
